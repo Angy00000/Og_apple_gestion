@@ -26,6 +26,7 @@ const FUNCTIONS = {
   api_reports: ['p_from', 'p_to'],
   api_margins: ['p_from', 'p_to'],
   api_list_receipts: [],
+  api_get_receipt_detail: ['p_id'],
   api_list_products: [],
   api_list_stock: ['p_origin'],
   api_list_available_units: [],
