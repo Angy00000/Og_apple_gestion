@@ -51,6 +51,7 @@ const FUNCTIONS = {
   api_list_products: [],
   api_list_categories: [],
   api_list_categories: [],
+  api_list_categories: [],
   api_list_stock: ['p_origin'],
   api_list_available_units: [],
   api_list_customers: ['p_q'],
