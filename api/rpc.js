@@ -24,6 +24,7 @@ const FUNCTIONS = {
   api_update_user: ['p_id', 'p_payload', 'p_actor_id'],
   api_search: ['p_query'],
   api_reports: ['p_from', 'p_to'],
+  api_margins: ['p_from', 'p_to'],
   api_list_receipts: [],
   api_list_products: [],
   api_list_stock: ['p_origin'],
