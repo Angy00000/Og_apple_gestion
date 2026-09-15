@@ -58,7 +58,7 @@ module.exports = async function handler(req, res) {
     });
     const placeholders = paramNames.map((_, i) => `$${i + 1}`).join(',');
     const query = `SELECT ${fn}(${placeholders}) AS result`;
-    const rows = await sql.query(query, values);
+    const rows = await sql(query, values);
     res.status(200).json(rows[0] ? rows[0].result : null);
   } catch (e) {
     res.status(500).json({ error: e.message });
