@@ -30,6 +30,7 @@ const FUNCTIONS = {
   api_update_expense: ['p_id', 'p_payload', 'p_user_id'],
   api_delete_expense: ['p_id', 'p_user_id'],
   api_cancel_sale: ['p_sale_id', 'p_reason', 'p_user_id'],
+  api_delete_sale: ['p_sale_id', 'p_user_id'],
   api_delete_receipt: ['p_id', 'p_user_id'],
   api_update_receipt: ['p_id', 'p_payload', 'p_user_id'],
   api_delete_repair: ['p_id', 'p_user_id'],
