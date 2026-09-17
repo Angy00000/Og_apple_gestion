@@ -36,6 +36,7 @@ const FUNCTIONS = {
   api_delete_repair: ['p_id', 'p_user_id'],
   api_update_debt: ['p_id', 'p_payload', 'p_user_id'],
   api_delete_debt: ['p_id', 'p_user_id'],
+  api_create_manual_debt: ['p_payload', 'p_user_id'],
   api_delete_payment: ['p_id', 'p_user_id'],
   api_dashboard: [],
   api_create_exchange: ['p_payload', 'p_user_id'],
